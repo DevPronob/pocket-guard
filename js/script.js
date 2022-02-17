@@ -37,7 +37,7 @@ function getInput(food,rent,clothes){
 function handleError(foodValue,rentvalue,clothesValue,IncomeValue){
 
 
-     if(isNaN(foodValue) || isNaN(rentvalue) || isNaN(rentvalue) || isNaN(IncomeValue) ){
+     if(isNaN(foodValue) || isNaN(rentvalue) || isNaN(clothesValue) || isNaN(IncomeValue) ){
        document.getElementById("err").innerText ="Please Enter Only Number";
        document.getElementById("err").style.backgroundColor ="red";
     }
@@ -92,7 +92,6 @@ document.getElementById("save-btn").addEventListener("click",function(){
          document.getElementById("err-save").style.backgroundColor ="red";
      }
 })
-
 
 // document.getElementById("save-btn"),addEventListener("click",function(){
 //     const percentInput =document.getElementById("save-input");
