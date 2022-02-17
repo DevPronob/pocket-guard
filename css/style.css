@@ -1,0 +1,71 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #31A5AC;
+}
+
+/* section part */
+main{
+    display: flex;
+    justify-content: center;
+}
+.buget-form{
+    background: #F8F8F8;
+}
+.Calculate-btn{
+    padding: 9px 28px 9px 28px;
+    background: #59A5FF;
+    border: none;
+    color: white;
+    margin-bottom: 18px;
+    outline: none;
+    font-weight: 600;
+}
+.save-button{
+    padding: 5px 25px 6px 25px;
+    background: #59A5FF;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 18px;
+    outline: none;
+}
+
+input[type=text]{
+    background-color: #DCDCDC;
+    font-size: 12px;
+}
+.container img{
+    height: 544px;
+}
+
+
+
+.error{
+    width: 233px;
+    padding: 4px;
+    font-size: 11px;
+    text-align: center;
+    margin-left: 68px;
+    color: white;
+    margin-top: 0;
+    font-weight: 100;
+    border-radius: 30px;
+    margin-top: -14px;
+    margin-bottom: 8px;
+}
